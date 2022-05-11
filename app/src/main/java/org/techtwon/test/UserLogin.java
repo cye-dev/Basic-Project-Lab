@@ -7,7 +7,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class userLogin extends AppCompatActivity {
+public class UserLogin extends AppCompatActivity {
     TextView text_button;
 
     @Override
@@ -19,7 +19,7 @@ public class userLogin extends AppCompatActivity {
         text_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), userSignUp.class);
+                Intent intent = new Intent(getApplicationContext(), UserSignUp.class);
                 startActivity(intent);
             }
         });

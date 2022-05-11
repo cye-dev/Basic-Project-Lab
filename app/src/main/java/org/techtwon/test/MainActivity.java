@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         user_login_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), userLogin.class);
+                Intent intent = new Intent(getApplicationContext(), UserLogin.class);
                 startActivity(intent);
             }
         });
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         vet_login_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), vetLogin.class);
+                Intent intent = new Intent(getApplicationContext(), VetLogin.class);
                 startActivity(intent);
             }
         });

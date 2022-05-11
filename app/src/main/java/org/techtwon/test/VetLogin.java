@@ -8,7 +8,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class vetLogin extends AppCompatActivity {
+public class VetLogin extends AppCompatActivity {
     TextView text_button;
 
     @Override
@@ -20,7 +20,7 @@ public class vetLogin extends AppCompatActivity {
         text_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), vetSignUp.class);
+                Intent intent = new Intent(getApplicationContext(), VetSignUp.class);
                 startActivity(intent);
             }
         });
