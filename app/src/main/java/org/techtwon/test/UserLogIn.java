@@ -7,7 +7,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class UserLogin extends AppCompatActivity {
+public class UserLogIn extends AppCompatActivity {
     TextView text_button;
 
     @Override

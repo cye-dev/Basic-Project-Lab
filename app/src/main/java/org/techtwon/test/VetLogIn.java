@@ -8,7 +8,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class VetLogin extends AppCompatActivity {
+public class VetLogIn extends AppCompatActivity {
     TextView text_button;
 
     @Override

@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Test">
         <activity
-            android:name="org.techtwon.test.UserLogin">
+            android:name="org.techtwon.test.UserLogIn">
         </activity>
         <activity
             android:name="org.techtwon.test.UserSignUp">
         </activity>
         <activity
-            android:name="org.techtwon.test.VetLogin">
+            android:name="org.techtwon.test.VetLogIn">
         </activity>
         <activity
             android:name="org.techtwon.test.VetSignUp">
