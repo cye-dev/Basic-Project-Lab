@@ -25,6 +25,9 @@
             android:name="org.techtwon.test.UserMyPage">
         </activity>
         <activity
+            android:name="org.techtwon.test.VetQuestionList">
+        </activity>
+        <activity
             android:name=".LogInSelection"
             android:exported="true">
             <intent-filter>
