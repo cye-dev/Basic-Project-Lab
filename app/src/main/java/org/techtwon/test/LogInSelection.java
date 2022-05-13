@@ -7,11 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class LogInSelection extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login_selection);
 
         Button user_login_button = findViewById(R.id.login_by_user);
         Button vet_login_button = findViewById(R.id.login_by_vet);
