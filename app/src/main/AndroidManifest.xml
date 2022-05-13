@@ -22,6 +22,9 @@
             android:name="org.techtwon.test.VetSignUp">
         </activity>
         <activity
+            android:name="org.techtwon.test.UserMyPage">
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

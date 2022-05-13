@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button user_login_button = findViewById(R.id.login_by_user);
         Button vet_login_button = findViewById(R.id.login_by_vet);
+        Button button = findViewById(R.id.button3);
 
         user_login_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,6 +29,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), VetLogIn.class);
+                startActivity(intent);
+            }
+        });
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), UserMyPage.class);
                 startActivity(intent);
             }
         });
