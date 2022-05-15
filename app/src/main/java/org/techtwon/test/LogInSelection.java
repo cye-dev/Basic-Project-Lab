@@ -36,7 +36,7 @@ public class LogInSelection extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), VetQuestionList.class);
+                Intent intent = new Intent(getApplicationContext(), VetNavi.class);
                 startActivity(intent);
             }
         });
