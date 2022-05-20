@@ -29,6 +29,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="parent"
-        app:menu="@menu/user_menu_bottomnavigationview" />
+        app:menu="@menu/user_menu_bottom_navigation_view" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
