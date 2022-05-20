@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:text="STEP2. 안구사진 업로드하기"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:id="@+id/STEP2" android:textSize="24sp"
+        android:textStyle="bold" android:textColor="@color/main_blue" android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp" android:layout_gravity="center"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/left_eye" android:id="@+id/lefteye_view"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/right_eye" android:id="@+id/righteye_view"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="52dp">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/camera_image"
+            android:id="@+id/left_camera" android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:background="@color/white"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/gallery" android:id="@+id/left_gallery"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:background="@color/white"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/camera_image"
+            android:id="@+id/right_camera" android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:background="@color/white"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/gallery" android:id="@+id/right_gallery"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:background="@color/white"/>
+    </LinearLayout>
+    <Button
+        android:text="다음"
+        android:layout_width="80dp"
+        android:layout_height="40dp" android:id="@+id/next_step2" android:layout_gravity="center"
+        android:textStyle="bold" android:textColor="@color/white"
+        android:background="@drawable/nextbutton" app:backgroundTint="@color/main_blue"
+        android:layout_marginTop="20dp" android:layout_marginBottom="20dp"
+
+        />
+</LinearLayout>
