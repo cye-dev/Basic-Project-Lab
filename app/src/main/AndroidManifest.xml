@@ -43,10 +43,10 @@
             android:name="org.techtwon.test.UserAlarm">
         </activity>
         <activity
-            android:name="org.techtwon.test.UserDiagnosis">
+            android:name="org.techtwon.test.UserDiagnosisStep1">
         </activity>
         <activity
-            android:name="org.techtwon.test.UserStep2"
+            android:name="org.techtwon.test.UserDiagnosisStep2"
             android:exported="true">
         </activity>
         <activity

@@ -1,7 +1,6 @@
 package org.techtwon.test;
 
 import android.view.MenuItem;
-import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,7 +15,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class VetNavi extends AppCompatActivity {
     private FragmentManager fragmentManager = getSupportFragmentManager();
-    private VetFragmentDiagnosis vet_fragmentDiagnosis = new VetFragmentDiagnosis();
+    private VetFragmentQuestionList vet_fragmentDiagnosis = new VetFragmentQuestionList();
     private VetFragmentMyPage vet_fragmentMyPage = new VetFragmentMyPage();
     private long backKeyPressedTime = 0;
     private Toast toast;
