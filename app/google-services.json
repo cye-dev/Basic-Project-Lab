@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "261762054223",
+    "project_id": "practice-b44aa",
+    "storage_bucket": "practice-b44aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261762054223:android:eb82ce9051b52cd156123a",
+        "android_client_info": {
+          "package_name": "org.techtwon.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261762054223-930bvr7iui1jn5phoe4011q7l4878o72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlYO-gdXFxolRrpkMIBXETx_PyL1mJYaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261762054223-930bvr7iui1jn5phoe4011q7l4878o72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
